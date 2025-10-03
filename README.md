@@ -1,4 +1,4 @@
-# Employee and Project Management Database
+# Core Banking System Database
 
 ## 📝 Overview
 
@@ -12,14 +12,13 @@ The project is organized into logical folders for easy navigation and execution:
 
 | Folder/File | Description | 
 | :--- | :--- | 
-| `your-sql-project/` | Root directory | 
+| `Core Banking Project` | Root directory | 
 | $\quad$ `docs/` | Contains project visuals and documentation. | 
 | $\quad$$\quad$ `ER_Diagram.png` | Visual representation of the database schema (E-R Diagram). | 
 | $\quad$ `sql/` | Contains all executable SQL scripts, ordered by purpose. | 
 | $\quad$$\quad$ `01_schema_creation.sql` | Scripts for **`CREATE TABLE`** and **`ALTER TABLE`** (Foreign Keys). | 
 | $\quad$$\quad$ `02_data_insertion.sql` | Scripts for **`INSERT INTO`** to populate the initial data. | 
-| $\quad$$\quad$ `03_queries.sql` | Contains demonstration `SELECT` queries (simple and complex). | 
-| $\quad$ `README.md` | This document. | 
+| $\quad$$\quad$ `03_queries.sql` | Contains demonstration `SELECT` queries. | 
 | $\quad$ `LICENSE` | Project licensing information. | 
 
 ## 🛠️ Setup Instructions
@@ -55,6 +54,5 @@ The database consists of the following tables:
 The `sql/03_queries.sql` file contains various queries, including:
 
 * **Simple Retrieval:** Listing all employees with a salary greater than $55,000.
-* **Joins:** Finding the department manager's name for every department.
 * **Complex Filtering:** Listing employees who work on 'Project A'.
 * **Aggregation:** Calculating the total number of hours worked across all projects.
