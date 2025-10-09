@@ -1,4 +1,4 @@
-# Core Banking System Database
+# Company Database Schema
 
 ## 📝 Overview
 
